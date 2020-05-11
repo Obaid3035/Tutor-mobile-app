@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".Students.SignIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USTAAD_JEE"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:textColor="@color/myblack"/>
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/goto_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="80px"
+                android:text="USTAAD"
+                android:textColor="@color/myblack"
+                android:textSize="20sp"
+                app:fontFamily="@font/nunito_sans_semibold" />
+            <View
+                android:id="@+id/anime"
+                android:layout_width="90dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"
+                android:layout_marginRight="26dp"
+                android:background="@color/mygreen"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80px"
+                android:text="STUDENT"
+                android:textAlignment="center"
+                android:textColor="@color/myblack"
+                android:textSize="20sp"
+                app:fontFamily="@font/nunito_sans_semibold"/>
+            <View
+                android:id="@+id/anime2"
+                android:layout_width="92dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="31dp"
+                android:background="@color/mygreen"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/emtext"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginVertical="10px"
+        android:background="@drawable/all_rounded_textview"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingVertical="30px"
+        android:paddingLeft="80px"
+        android:textColorHint="@color/myblack"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/pwtext"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="100px"
+        android:background="@drawable/all_rounded_textview"
+        android:hint="Password"
+        android:paddingVertical="30px"
+        android:paddingLeft="80px"
+        android:textColorHint="@color/myblack"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/nmtext"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginVertical="10px"
+        android:background="@drawable/all_rounded_textview"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:paddingVertical="30px"
+        android:paddingLeft="80px"
+        android:textColorHint="@color/myblack"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/mbtext"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginVertical="10px"
+        android:background="@drawable/all_rounded_textview"
+        android:hint="Mobile"
+        android:paddingVertical="30px"
+        android:paddingLeft="80px"
+        android:textColorHint="@color/myblack"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/interest_text"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginVertical="10px"
+        android:background="@drawable/all_rounded_textview"
+        android:hint="Field of Interest"
+        android:paddingVertical="30px"
+        android:paddingLeft="80px"
+        android:textColorHint="@color/myblack"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/info_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textColor="@color/myblack"
+                app:fontFamily="@font/nunito_sans_semibold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="15dp"
+                android:text="Education:"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="173dp"
+                android:layout_height="33dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginRight="84dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:buttonTint="@color/mygreen"
+                    android:fontFamily="@font/nunito_sans_semibold"
+                    android:checked="true"
+                    android:text="Male"
+                    />
+
+                <RadioButton
+                    android:id="@+id/female_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/nunito_sans_semibold"
+                    android:buttonTint="@color/mygreen"
+                    android:text="Female" />
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spin"
+                android:layout_width="198dp"
+                android:layout_height="23dp"
+
+                style="@android:style/Animation"
+                android:focusableInTouchMode="true"
+                android:scrollbarStyle="insideInset"
+                android:entries="@array/education_level"></Spinner>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:text="SIGN UP"
+        android:layout_marginVertical="50px"
+        android:layout_marginHorizontal="100px"
+        android:paddingVertical="30px"
+        android:textSize="17sp"
+        android:textColor="@color/myblack"
+        android:background="@drawable/button_background"
+        android:layout_height="57dp">
+    </Button>
+
+
+
+
+    <TextView
+        android:id="@+id/info_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already a Member? click here"
+        android:textAlignment="center"
+        android:textColor="@color/myblack"
+        android:textSize="15sp"
+        app:fontFamily="@font/nunito_sans_semibold"></TextView>
+</LinearLayout>

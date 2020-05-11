@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7FDFF"
+    tools:context=".Students.ProfileActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/mygreen"/>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USTAAD_JEE"
+                        android:textSize="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/nunito_sans_extrabold"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/option1"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="340dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_action_filter" />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROFILE"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:textColor="@color/white"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Profile_Image"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerHorizontal="true"
+                        android:elevation="1dp"
+                        android:src="@drawable/me"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="85dp"
+                            app:contentPadding="15dp"
+                            app:contentPaddingBottom="15dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:contentPaddingLeft="15dp"
+                            app:contentPaddingRight="15dp"
+                            app:contentPaddingTop="15dp"
+                            app:cardCornerRadius="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/name_ustaad"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:inputType="textCapWords"
+                                    android:layout_marginTop="50dp"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/nunito_sans_extrabold"
+                                    android:textColor="@color/myblack"/>
+                                <View
+                                    android:id="@+id/anime"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/myblack"/>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="60dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="100"
+                                            android:gravity="center"
+                                            android:textSize="22dp"
+                                            android:fontFamily="@font/nunito_sans_extrabold"
+                                            android:textColor="@color/mygreen"/>
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Tution"
+                                            android:textSize="17dp"
+                                            android:fontFamily="@font/nunito_sans_semibold"
+                                            android:textColor="@color/myblack"/>
+
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:id="@+id/anime"
+                                        android:layout_width="1dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_height="80dp"
+                                        android:background="@color/myblack"/>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="270dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="4.5"
+                                            android:gravity="center"
+                                            android:textSize="22dp"
+                                            android:fontFamily="@font/nunito_sans_extrabold"
+                                            android:textColor="@color/mygreen"/>
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Ratings"
+                                            android:textSize="17dp"
+                                            android:fontFamily="@font/nunito_sans_semibold"
+                                            android:textColor="@color/myblack"/>
+
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bio"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:id="@+id/bio_ustaad"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:hint="Discription (Optional)"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:background="@drawable/all_rounded_textview"
+                android:layout_marginHorizontal="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Info"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:id="@+id/email_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/myblack"
+                android:layout_marginLeft="20dp"
+                android:text="obaid3035@gmail.com"/>
+
+            <View
+                android:layout_width="380dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/borderColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile:"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:id="@+id/mobile_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/myblack"
+                android:layout_marginLeft="20dp"
+                android:text="03112591703"/>
+            <View
+                android:layout_width="380dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/borderColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:id="@+id/address_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/myblack"
+                android:layout_marginLeft="20dp" />
+
+            <View
+                android:layout_width="380dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/borderColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education:"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textColor="@color/myblack"/>
+
+            <TextView
+                android:id="@+id/education_ustaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/myblack"
+                android:layout_marginLeft="20dp"
+                android:text="Undergraduate"/>
+            <View
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/borderColor"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

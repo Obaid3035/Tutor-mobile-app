@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ustaad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".Teacher.FirebaseMessagingServices"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:name=".Students.Edit_profileActivity_Students"></activity>
+        <activity android:name=".Students.PostActivity_Student" />
+        <activity android:name=".Students.HomeActivity_Student" />
+        <activity android:name=".Teacher.Edit_profileActivity" />
+        <activity android:name=".Teacher.PostActivity">
+
+
+        </activity>
+        <activity android:name=".Students.SignIn" />
+        <activity android:name=".Teacher.HomeActivity">
+            <intent-filter>
+                <action android:name="com.example.ustaad_TARGET_NOTIFICATION"></action>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".Students.SignUp" />
+        <activity android:name=".Teacher.SignUp_UstaadActivity" />
+        <activity
+            android:name=".Teacher.SignIn_UstaadActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
