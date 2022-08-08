@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subject: MyString
+  timing: MyString
+  profile: one
+
+two:
+  subject: MyString
+  timing: MyString
+  profile: two

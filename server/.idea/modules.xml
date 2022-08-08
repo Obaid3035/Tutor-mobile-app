@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/design_henge/Car-Rental/.idea/Car-Rental.iml" filepath="$USER_HOME$/design_henge/Car-Rental/.idea/Car-Rental.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ustaad.iml" filepath="$PROJECT_DIR$/.idea/Ustaad.iml" />
+      <module fileurl="file://$USER_HOME$/Zakaat/matchmake/.idea/matchmake.iml" filepath="$USER_HOME$/Zakaat/matchmake/.idea/matchmake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../orps/.idea/orps.iml" filepath="$PROJECT_DIR$/../orps/.idea/orps.iml" />
+    </modules>
+  </component>
+</project>
